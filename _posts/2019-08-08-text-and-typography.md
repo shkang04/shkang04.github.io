@@ -1,8 +1,8 @@
 ---
-title: 안녕하십니까?
-description: 제가 드디어 github로 웹사이트 구동?을 성공하게 되었습니다. 그래서 맨 위에 있는 포스트를 바꾸는 중입니다.
+title: Text and Typography
+description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
-date: 2024-11-07 16:01:00 +0800
+date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 pin: true
@@ -15,7 +15,6 @@ image:
 ---
 
 ## Headings
-#### 이곳에 다양한 기능 소개들이 있군요!
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
