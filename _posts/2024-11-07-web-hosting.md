@@ -20,13 +20,13 @@ mermaid: true
 3. github - Setting - Pages에서 Visit site를 눌렀을 때 화면에 이 문구만 떠서 `--- layout: home # Index page ---` 해결 방법을 찾아봤습니다. 해결 방법은 여러가지 있었으나 저는 `jekyll.yml`파일을 commit하면 고쳐진다는 방법이 있어서 이 방법을 통해 해결하였습니다.
 
 4. 댓글 기능은 생각보다 쉽게 해결하였습니다. `_config.yml`파일의
-```
+``` title:"_config.yml"
 utterances:
     repo: "shkang04/shkang04.github.io"
     issue_term: "pathname"
 ```
 부분만 수정 후 `_layouts/post.html`파일의 맨 아래에
-```
+``` title:"_layouts/post.html"
 <script src="https://utteranc.es/client.js"
         repo="shkang04/shkang04.github.io"
         issue-term="pathname"
@@ -39,7 +39,7 @@ utterances:
 위 코드를 붙여 넣었습니다.
 
 5. 조회수 기능은 (아직)정확히는 모르겠으나, goatcounter 사이트에서 visit이 증가하는 걸 볼 수 있었으나 제 웹사이트 내에서도 확인이 되어야 하는지 정확히 몰라서 visit이 증가하는 것만 확인 하였습니다. 제가 이 과정에서 겪은 문제점은 `_config.yml`파일의
-```
+``` title:"_config.yml"
 analytics:
   google:
     id: # fill in your Google Analytics ID
