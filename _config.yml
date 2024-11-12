@@ -61,7 +61,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: "https://aiwab.goatcounter.com"
+    id: "https://aiwab.goatcounter.com/count"
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
