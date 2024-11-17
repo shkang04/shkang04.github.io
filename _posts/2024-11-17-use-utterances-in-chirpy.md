@@ -1,5 +1,5 @@
 ---
-title: Use-Utterances-in-chirpy
+title: use-utterances-in-chirpy
 description: 
 author: shkang
 date: 2024-11-17 17:55:00 +0800
