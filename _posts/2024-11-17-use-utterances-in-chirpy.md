@@ -1,5 +1,5 @@
 ---
-title: use-utterances-in-chirpy
+title: 댓글 기능 - utterances
 description: 
 author: shkang
 date: 2024-11-17 17:55:00 +0800
@@ -12,6 +12,7 @@ mermaid: true
 
 # 댓글 기능
 - 블로그에 댓글 기능을 추가하기 위해 github의 **utterances**를 사용합니다. **utterance**를 사용하는 이유는 광고가 없고, 가벼우며, github 계정 로그인을 통해 내 저장소의 issue에 댓글이 올라오는 시스템이기 때문에 유용하기 때문입니다.
+- 모든 내용은 `jekyll`의 `chirpy` 테마를 기준으로 합니다.
 
 1. 댓글 이슈가 올라올 저장소를 정한 후, [utterance](https://github.com/apps/utterances)에 접속하여 
    `Only Select Repository`를 통해 `댓글 issue`가 올라올 저장소를 선택하여 설치합니다.
