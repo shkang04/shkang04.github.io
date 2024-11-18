@@ -14,12 +14,14 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: shkang04120 # the main title
+title: AIWAB's blog # the main title
 
 tagline: 안녕하십니까. 방문해주셔서 감사합니다. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  어쩌다가 소프트웨어, 인공지능을 전공하게 된 대학생의 블로그
+
+keywords: "소프트웨어, software, AI, 비트코인, bitcoin, 블로그, blog, 대학생, IT"
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -46,7 +48,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: <meta name="google-site-verification" content="kPrfs4Ly0DjiWFUrBDvrrakteXNlq9Sx-xEfuilk_3E" /> # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code

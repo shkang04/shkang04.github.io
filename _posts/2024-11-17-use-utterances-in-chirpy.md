@@ -10,7 +10,7 @@ math: true
 mermaid: true
 ---
 
-# 댓글 기능
+## 댓글 기능
 - 블로그에 댓글 기능을 추가하기 위해 github의 **utterances**를 사용합니다. **utterance**를 사용하는 이유는 광고가 없고, 가벼우며, github 계정 로그인을 통해 내 저장소의 issue에 댓글이 올라오는 시스템이기 때문에 유용하기 때문입니다.
 - 모든 내용은 `jekyll`의 `chirpy` 테마를 기준으로 합니다.
 
