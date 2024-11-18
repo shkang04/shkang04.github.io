@@ -1,6 +1,6 @@
 ---
 title: Web-Hosting
-description: 
+description: 깃허브를 사용하여 블로그를 만들며 겪은 문제를 정리해놨습니다.
 author: AIWAB
 date: 2024-11-07 16:51:00 +0800
 categories: [Blogging, Demo]
