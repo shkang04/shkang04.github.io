@@ -1,7 +1,7 @@
 ---
 title: 조회수(analytics) 기능 - goatcounter
 description: 
-author: shkang
+author: AIWAB
 date: 2024-11-17 21:42:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]

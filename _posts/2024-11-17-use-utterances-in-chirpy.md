@@ -1,7 +1,7 @@
 ---
 title: 댓글 기능 - utterances
 description: 
-author: shkang
+author: AIWAB
 date: 2024-11-17 17:55:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
