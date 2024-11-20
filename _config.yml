@@ -1,65 +1,66 @@
-# The Site Configuration
+# 사이트 설정
 
-# Import the theme
+# 테마 불러오기
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
+# 웹페이지 언어 설정 › http://www.lingoes.net/en/translator/langcode.htm
+# '_data/locales' 폴더 내의 파일 이름과 동일한 경우 레이아웃 언어도 함께 변경됩니다.
+# 그렇지 않으면 레이아웃 언어는 기본값인 'en'을 사용합니다.
 lang: en
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+# 시간대 설정 › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# jekyll-seo-tag 설정 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: AIWAB # the main title
+title: AIWAB # 메인 제목
 
-tagline: 안녕하십니까. 방문해주셔서 감사합니다. # it will display as the subtitle
+tagline: 안녕하십니까. 방문해주셔서 감사합니다. # 부제목으로 표시됩니다
 
-description: >- # used by seo meta and the atom feed
+description: >- # SEO 메타 태그와 atom 피드에 사용됩니다
   어쩌다가 소프트웨어, 인공지능을 전공하게 된 대학생의 블로그
 
 keywords: "소프트웨어, software, AI, 비트코인, bitcoin, 블로그, blog, 대학생, IT"
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
+# 사이트의 프로토콜과 호스트명을 입력하세요.
+# 예시: 'https://username.github.io', 끝에 '/'를 붙이지 않습니다.
 url: "https://shkang04.github.io"
 
+# 소셜 미디어 설정
 github:
-  username: shkang04 # change to your GitHub username
+  username: shkang04 # GitHub 사용자명으로 변경
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: AIWAB # Twitter 사용자명으로 변경
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  # 실명으로 변경하세요.
+  # 게시물의 기본 작성자와 푸터(footer)의 저작권 소유자로 표시됩니다.
   name: SuHwan Kang
-  email: shkang040120@gmail.com # change to your email address
+  email: shkang040120@gmail.com # 이메일 주소로 변경
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/shkang04 # change to your GitHub homepage
-    # Uncomment below to add more social links
+    # 첫 번째 요소는 저작권 소유자의 링크로 사용됩니다
+    - https://twitter.com/a1wab # Twitter 홈페이지로 변경
+    - https://github.com/shkang04 # GitHub 홈페이지로 변경
+    # 아래 주석을 해제하여 더 많은 소셜 링크 추가 가능
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-# Site Verification Settings
+# 사이트 인증 설정
 webmaster_verifications:
-  google: kPrfs4Ly0DjiWFUrBDvrrakteXNlq9Sx-xEfuilk_3E # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
-  naver: af013f1dd9cbc62694d73a93e8d8dd58ada091c5 # fill in your Google verification code
+  google: kPrfs4Ly0DjiWFUrBDvrrakteXNlq9Sx-xEfuilk_3E # Google 인증 코드
+  bing: # Bing 인증 코드
+  alexa: # Alexa 인증 코드
+  yandex: # Yandex 인증 코드
+  baidu: # Baidu 인증 코드
+  facebook: # Facebook 인증 코드
+  naver: af013f1dd9cbc62694d73a93e8d8dd58ada091c5 # Naver 인증 코드
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-# Web Analytics Settings
+# 웹 분석 도구 설정
 analytics:
   google:
     id: # fill in your Google Analytics ID
@@ -76,46 +77,46 @@ analytics:
   fathom:
     id: # fill in your Fathom Site ID
 
-# Page views settings
+# 페이지 조회수 설정
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: "goatcounter" # 현재는 'goatcounter'만 지원됨
 
-# Prefer color scheme setting.
+# 색상 테마 설정
 #
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
+# 참고: 비워두면 시스템 기본 색상을 따르며,
+# 사이드바 하단 왼쪽에 다크/라이트 모드 전환 버튼이 생깁니다.
 #
-# Available options:
+# 사용 가능한 옵션:
 #
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
+#     light — 라이트 모드 사용
+#     dark — 다크 모드 사용
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
-# The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+# 미디어 리소스를 위한 CDN 엔드포인트
+# 설정하면 '/'로 시작하는 모든 미디어 리소스(사이트 아바타, 게시물 이미지, 오디오, 비디오 파일)에
+# CDN URL이 추가됩니다
 #
-# e.g. 'https://cdn.com'
+# 예시: 'https://cdn.com'
 #cdn: "https://chirpy-img.netlify.app"
 
-# the avatar on sidebar, support local or CORS resources
+# 사이드바의 아바타 이미지, 로컬 또는 CORS 리소스 지원
 avatar: "/assets/img/favicons/avatar.png"
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-# It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+# SEO의 og:image 메타 태그에 사용되는 사이트 전체 소셜 미리보기 이미지 URL
+# front matter에서 page.image로 재정의할 수 있습니다.
+social_preview_image: "/assets/img/favicons/avatar.png" # 문자열, 로컬 또는 CORS 리소스
 
-# boolean type, the global switch for TOC in posts.
+# 게시물의 목차(TOC) 전역 스위치
 toc: true
 
+#댓글 시스템 설정
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
+  # 전역 댓글 시스템 스위치. 비워두면 비활성화됩니다.
   provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+  # 각 제공자별 설정:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: # Disqus 쇼트네임 입력. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: "shkang04/shkang04.github.io"
@@ -126,36 +127,38 @@ comments:
     repo_id:
     category:
     category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    mapping: # 선택사항, 기본값 'pathname'
+    strict: # 선택사항, 기본값 '0'
+    input_position: # 선택사항, 기본값 'bottom'
+    lang: # 선택사항, 기본값은 site.lang 값
+    reactions_enabled: # 선택사항, 기본값 '1'
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+# 자체 호스팅 정적 자산 설정 › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
+    enabled: # boolean, 비워두면 false
+    # Jekyll 환경 지정, 비워두면 둘 다 적용
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]
 
+#PWA(Progressive Web App) 설정
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: true #  PWA 기능 활성화 (설치 가능)
   cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
+    enabled: true # PWA 오프라인 캐시 활성화
+    # 여기서 정의된 경로는 PWA 캐시에서 제외됩니다.
+    # 보통 현재 웹사이트와 같은 도메인을 공유하는
+    # 다른 웹사이트의 'baseurl'입니다.
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+      # - "/example"  # <SITE_URL>/example/* 와 일치하는 URL은 PWA로 캐시되지 않습니다
 
+#페이지당 게시물 수
 paginate: 10
 
-# The base URL of your site
+# 사이트의 기본 URL
 baseurl: ""
 
-# ------------ The following options are not recommended to be modified ------------------
+# ------------ 아래 옵션들은 수정하지 않는 것을 권장합니다 ------------------
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
@@ -169,19 +172,21 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+#콜렉션 설정
 collections:
   tabs:
     output: true
     sort_by: order
 
+# 기본값 설정
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "" # 빈 문자열은 프로젝트의 모든 파일을 의미
       type: posts
     values:
       layout: post
-      comments: true # Enable comments in posts.
-      toc: true # Display TOC column in posts.
+      comments: true # 게시물의 댓글 기능 활성화
+      toc: true # 게시물의 TOC 컬럼 표시
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
@@ -196,9 +201,11 @@ defaults:
       layout: page
       permalink: /:title/
 
+# SASS 설정
 sass:
   style: compressed
 
+# HTML 압축 설정
 compress_html:
   clippings: all
   comments: all
@@ -208,6 +215,7 @@ compress_html:
   ignore:
     envs: [development]
 
+# 제외할 파일/폴더
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -218,6 +226,7 @@ exclude:
   - "*.config.js"
   - package*.json
 
+# Jekyll 아카이브 설정
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
