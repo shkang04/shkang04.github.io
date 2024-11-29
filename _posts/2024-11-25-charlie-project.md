@@ -3,7 +3,7 @@ title: "프로젝트 보고서: 공룡 게임 개발"
 description: 크롬 공룡 게임 협업 프로젝트 보고서
 author: AIWAB
 date: 2024-11-25 16:38:00 +0800
-categories: [Blogging, Demo]
+categories: [Blogging, Postings]
 tags: [typography]
 pin: true
 math: true

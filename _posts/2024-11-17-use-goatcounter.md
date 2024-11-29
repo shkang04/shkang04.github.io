@@ -3,7 +3,7 @@ title: 조회수(analytics) 기능 - goatcounter
 description: 블로그에 누가, 얼마나 들어왔지 볼 수 있는 조회수 시스템 설정하는 법을 알려줍니다.
 author: AIWAB
 date: 2024-11-17 21:42:00 +0800
-categories: [Blogging, Demo]
+categories: [Blogging, Postings]
 tags: [typography]
 pin: true
 math: true

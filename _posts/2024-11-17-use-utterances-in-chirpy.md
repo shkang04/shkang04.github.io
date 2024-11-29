@@ -3,7 +3,7 @@ title: 댓글 기능 - utterances
 description: 블로그에 댓글을 달 수 있는 기능을 알려줍니다.
 author: AIWAB
 date: 2024-11-17 17:55:00 +0800
-categories: [Blogging, Demo]
+categories: [Blogging, Postings]
 tags: [typography]
 pin: true
 math: true
