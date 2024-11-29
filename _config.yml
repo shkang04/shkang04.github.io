@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: AIWAB # 메인 제목
 
-tagline: 안녕하십니까. 방문해주셔서 감사합니다. # 부제목으로 표시됩니다
+tagline: 무용지물 # 부제목으로 표시됩니다
 
 description: >- # SEO 메타 태그와 atom 피드에 사용됩니다
   어쩌다가 소프트웨어, 인공지능을 전공하게 된 대학생의 블로그
